@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sudoku</title>
+	<style>
+		table {
+			border-collapse: collapse;
+			margin: auto;
+			border: 5px solid green;
+		}
+		td {
+			width: 40px;
+			height: 40px;
+			text-align: center;
+			font-size: 30px;
+			border: 1px solid black;
+			border-style: solid;
+			border-color: green;
+			background-color: #FFFFFF;
+		}
+		td:nth-child(3n), td:nth-child(6n) {
+			border-right: 3px solid green;
+		}
+		tr:nth-child(3n), tr:nth-child(6n) {
+			border-bottom: 3px solid green;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<tr>
+			<td>5</td><td>3</td><td>4</td> <td>6</td><td>7</td><td>8</td> <td>9</td><td>1</td><td>2</td>
+		</tr>
+		<tr>
+			<td>6</td><td>7</td><td>2</td> <td>1</td><td>9</td><td>5</td> <td>3</td><td>4</td><td>8</td>
+		</tr>
+		<tr>
+			<td>1</td><td>9</td><td>8</td> <td>3</td><td>4</td><td>2</td> <td>5</td><td>6</td><td>7</td>
+		</tr>
+
+		<tr>
+			<td>8</td><td>5</td><td>9</td> <td>7</td><td>6</td><td>1</td> <td>4</td><td>2</td><td>3</td>
+		</tr>
+		<tr>
+			<td>4</td><td>2</td><td>6</td> <td>8</td><td>5</td><td>3</td> <td>7</td><td>9</td><td>1</td>
+		</tr>
+		<tr>
+			<td>7</td><td>1</td><td>3</td> <td>9</td><td>2</td><td>4</td> <td>8</td><td>5</td><td>6</td>
+		</tr>
+
+		<tr>
+			<td>9</td><td>6</td><td>1</td> <td>5</td><td>3</td><td>7</td> <td>2</td><td>8</td><td>4</td>
+		</tr>
+		<tr>
+			<td>2</td><td>8</td><td>7</td> <td>4</td><td>1</td><td>9</td> <td>6</td><td>3</td><td>5</td>
+		</tr>
+		<tr>
+			<td>3</td><td>4</td><td>5</td> <td>2</td><td>8</td><td>6</td> <td>1</td><td>7</td><td>9</td>
+		</tr>
+	</table>
+</body>
+</html>
